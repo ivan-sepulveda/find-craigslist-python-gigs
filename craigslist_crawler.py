@@ -1,11 +1,25 @@
 import multiprocessing as mp
-import random as rd
-import time
 import requests
 from bs4 import BeautifulSoup
 import os
 import pandas as pd
 import json
+import re
+import string
+import unidecode
+
+os.environ["OBJC_DISABLE_INITIALIZE_FORK_SAFETY"] = "YES"
+
+
+def de_emojify(text):
+    regex_pattern = re.compile(pattern="["u"\U0001F600-\U0001F64F"  # emoticons
+                                       u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+                                       u"\U0001F680-\U0001F6FF"  # transport & map symbols
+                                       u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                                       "]+", flags=re.UNICODE)
+    return regex_pattern.sub(r'', text)
+
+
 
 os.environ["OBJC_DISABLE_INITIALIZE_FORK_SAFETY"] = "YES"
 
@@ -32,27 +46,63 @@ def worker(msa_name, return_list, search_nearby):
 
 def output():
     msas = {
-        'atlanta': 0,
-        'austin': 0,
-        'boston': 0,
-        'chicago': 0,
-        'dallas': 0,
-        'denver': 0,
-        'detroit': 0,
-        'houston': 0,
-        'lasvegas': 0,
+        'edmonton': 1,
+        'winnipeg': 1,
+        'santabarbara': 1,
+        'bellingham': 1,
+        'santafe': 1,
+        'ventura': 1,
+        'bakersfield': 1,
+        'vancouver': 1,
+        'gulfport': 1,
+        'omaha': 1,
+        'victoria': 1,
+        'atlanta': 1,
+        'tulsa': 1,
+        'tippecanoe': 1,
+        'cincinnati': 1,
+        'saltlakecity': 1,
+        'austin': 1,
+        'boston': 1,
+        'palmsprings': 1,
+        'chicago': 1,
+        'springfieldil': 1,
+        'dallas': 1,
+        'denver': 1,
+        'detroit': 1,
+        'houston': 1,
+        'lynchburg': 1,
+        'lasvegas': 1,
         'losangeles': 1,
-        'miami': 0,
-        'minneapolis': 0,
-        'newyork': 0,
-        'philadelphia': 0,
-        'phoenix': 0,
-        'portland': 0,
-        'seattle': 0,
+        'miami': 1,
+        'minneapolis': 1,
+        'newyork': 1,
+        'wichita': 1,
+        'philadelphia': 1,
+        'pittsburgh': 1,
+        'phoenix': 1,
+        'portland': 1,
+        'boulder': 1,
+        'merced': 1,
+        'annarbor': 1,
+        'gainesville': 1,
+        'seattle': 1,
         'sfbay': 1,
-        'washingtondc': 0
+        'lincoln': 1,
+        'tucson': 1,
+        'southbend': 1,
+        'neworleans': 1,
+        'collegestation': 1,
+        'lansing': 1,
+        'raleigh': 1,
+        'boise': 1,
+        'reno': 1,
+        'humboldt': 1,
+        'orangecounty': 1,
+        'ithaca': 1,
+        'rochester': 1,
+        'washingtondc': 1
     }
-
     manager = mp.Manager()
     return_list = manager.list()
     jobs = []
@@ -84,3 +134,11 @@ def lambda_handler(event, context):
     }
 
     return t_response
+
+
+if __name__ == '__main__':
+    search_results = output()
+    with open('programming_gigs.json', 'w') as f:
+        json.dump(search_results, f, indent=4, sort_keys=True)
+
+

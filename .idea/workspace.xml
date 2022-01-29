@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31e4e6d0-af08-4c7b-8828-98457eab9315" name="Default Changelist" comment="" />
+    <list default="true" id="31e4e6d0-af08-4c7b-8828-98457eab9315" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/internships_and_freelance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/craigslist-multi-scrape.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/craigslist-multi-scrape.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/craigslist_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/craigslist_crawler.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="craigslist-multi-scrape" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,9 +24,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ajzwnOAz6wpyvhHhrwfOSI7cUS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -31,6 +45,127 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.tutoring_gigs">
+    <configuration name="ex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="craigslist-multi-scrape" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example.txt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="craigslist-multi-scrape" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example.txt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="find_italian_tutor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="craigslist-multi-scrape" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_italian_tutor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="internships_and_freelance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="craigslist-multi-scrape" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/internships_and_freelance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tutoring_gigs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="craigslist-multi-scrape" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutoring_gigs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tutoring_gigs" />
+        <item itemvalue="Python.internships_and_freelance" />
+        <item itemvalue="Python.find_italian_tutor" />
+        <item itemvalue="Python.ex" />
+        <item itemvalue="Python.example.txt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -41,11 +176,122 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587264031741</updated>
-      <workItem from="1587264032825" duration="107000" />
+      <workItem from="1587264032825" duration="241000" />
+      <workItem from="1606100545223" duration="7451000" />
+      <workItem from="1606167484665" duration="3905000" />
+      <workItem from="1606286896426" duration="4172000" />
+      <workItem from="1606360682748" duration="727000" />
+      <workItem from="1606546101521" duration="536000" />
+      <workItem from="1606611248869" duration="1564000" />
+      <workItem from="1606774318622" duration="1819000" />
+      <workItem from="1606845571180" duration="178000" />
+      <workItem from="1606957116877" duration="702000" />
+      <workItem from="1606982317666" duration="841000" />
+      <workItem from="1607319107547" duration="543000" />
+      <workItem from="1607367301735" duration="806000" />
+      <workItem from="1607371218409" duration="5163000" />
+      <workItem from="1607454751816" duration="2861000" />
+      <workItem from="1607492221029" duration="367000" />
+      <workItem from="1607535031671" duration="1002000" />
+      <workItem from="1607578179833" duration="1928000" />
+      <workItem from="1607715293611" duration="1478000" />
+      <workItem from="1607801697764" duration="4886000" />
+      <workItem from="1607886831393" duration="4142000" />
+      <workItem from="1607922161932" duration="12134000" />
+      <workItem from="1608102047468" duration="3693000" />
+      <workItem from="1608193094179" duration="2047000" />
+      <workItem from="1608234914872" duration="3722000" />
+      <workItem from="1608324917432" duration="1448000" />
+      <workItem from="1608429572629" duration="2346000" />
+      <workItem from="1608439148744" duration="490000" />
+      <workItem from="1608447202090" duration="4807000" />
+      <workItem from="1608452940600" duration="22000" />
+      <workItem from="1608514923288" duration="4057000" />
+      <workItem from="1608600734839" duration="1181000" />
+      <workItem from="1608678280747" duration="607000" />
+      <workItem from="1608694506153" duration="491000" />
+      <workItem from="1608778746229" duration="715000" />
+      <workItem from="1608829100348" duration="418000" />
+      <workItem from="1608882246806" duration="323000" />
+      <workItem from="1608995677049" duration="54000" />
+      <workItem from="1609004971257" duration="521000" />
+      <workItem from="1609038139230" duration="895000" />
+      <workItem from="1609095590568" duration="1127000" />
+      <workItem from="1609130358853" duration="1054000" />
+      <workItem from="1609266657755" duration="637000" />
+      <workItem from="1609290261934" duration="27000" />
+      <workItem from="1609361872173" duration="1224000" />
+      <workItem from="1609394905241" duration="796000" />
+      <workItem from="1609437482672" duration="6000" />
+      <workItem from="1609559008330" duration="1409000" />
+      <workItem from="1609722818651" duration="575000" />
+      <workItem from="1609789455863" duration="321000" />
+      <workItem from="1609803442753" duration="612000" />
+      <workItem from="1609873240882" duration="1369000" />
+      <workItem from="1609903533235" duration="1319000" />
+      <workItem from="1609973365419" duration="602000" />
+      <workItem from="1610003837408" duration="119000" />
+      <workItem from="1610060781296" duration="792000" />
+      <workItem from="1610149797797" duration="779000" />
+      <workItem from="1610401818628" duration="1578000" />
+      <workItem from="1610432887409" duration="817000" />
+      <workItem from="1610520950021" duration="153000" />
+      <workItem from="1610559910079" duration="689000" />
+      <workItem from="1610605909928" duration="269000" />
+      <workItem from="1610661509946" duration="969000" />
+      <workItem from="1610904852713" duration="1861000" />
+      <workItem from="1610937182151" duration="385000" />
+      <workItem from="1611090009900" duration="262000" />
+      <workItem from="1611204222202" duration="403000" />
+      <workItem from="1611341488689" duration="333000" />
+      <workItem from="1611349962870" duration="7000" />
+      <workItem from="1611597467465" duration="540000" />
+      <workItem from="1611706340332" duration="536000" />
+      <workItem from="1611802678474" duration="50000" />
+      <workItem from="1611867855354" duration="503000" />
+      <workItem from="1612206842786" duration="652000" />
+      <workItem from="1612219078225" duration="1538000" />
+      <workItem from="1612319046191" duration="245000" />
+      <workItem from="1612543917499" duration="378000" />
+      <workItem from="1612991265436" duration="432000" />
+      <workItem from="1613773870238" duration="77000" />
+      <workItem from="1614232300669" duration="472000" />
+      <workItem from="1614832270119" duration="88000" />
+      <workItem from="1641702379192" duration="1434000" />
+      <workItem from="1641837388430" duration="681000" />
+      <workItem from="1642805491611" duration="860000" />
+      <workItem from="1642905028580" duration="11833000" />
+      <workItem from="1643039241811" duration="1721000" />
+      <workItem from="1643144988090" duration="1907000" />
+      <workItem from="1643257885424" duration="1501000" />
+      <workItem from="1643307194716" duration="2265000" />
+      <workItem from="1643427773470" duration="583000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/craigslist_multi_scrape$ex.coverage" NAME="ex Coverage Results" MODIFIED="1642913449960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/craigslist_multi_scrape$tutoring_gigs.coverage" NAME="tutoring_gigs Coverage Results" MODIFIED="1643423249536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/craigslist_multi_scrape$example_txt.coverage" NAME="example.txt Coverage Results" MODIFIED="1612207048633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/craigslist_multi_scrape$craigslist_crawler.coverage" NAME="craigslist_crawler Coverage Results" MODIFIED="1608447341242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/craigslist_multi_scrape$find_italian_tutor.coverage" NAME="find_italian_tutor Coverage Results" MODIFIED="1642914165789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/craigslist_multi_scrape$internships_and_freelance.coverage" NAME="internships_and_freelance Coverage Results" MODIFIED="1643307373960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/craigslist_multi_scrape$test.coverage" NAME="test Coverage Results" MODIFIED="1606787651674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
